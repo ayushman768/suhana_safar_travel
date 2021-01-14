@@ -1,0 +1,47 @@
+@media(max-width:1200px) {
+    .my_company_details {
+        display: none;
+    }
+    nav {
+        position: fixed;
+        width: 100%;
+        z-index: 2147483647;
+        background: rgb(47 47 49);
+        top: 60px;
+        box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05)!important;
+    }
+    .dis {
+        display: none!important;
+    }
+    .suhana_safar_nav>ul>li>a {
+        color: var(--color-white)!important;
+    }
+    header {
+        position: sticky;
+        top: 0px;
+        z-index: 999999;
+        box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05)!important;
+    }
+    .my_fleet>a>img {
+        height: auto;
+    }
+    .tickets01>a>img {
+        height: auto;
+    }
+    .suhana_safar_Logo>img {
+        width: 75px;
+        position: absolute;
+        margin: 0 auto;
+        /* left: 100px; */
+        left: 50;
+        left: 50px;
+        right: 50px;
+    }
+    .menu {
+        font-size: 26px;
+        color: rgb(255 255 255);
+        padding: 13px;
+        border-radius: 50px;
+        background: rgb(128 128 128);
+    }
+}

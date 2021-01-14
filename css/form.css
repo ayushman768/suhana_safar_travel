@@ -1,0 +1,23 @@
+.tab{
+display:none;
+   
+}
+.myreservation_form{
+	    background: rgb(47 47 49);
+    /* border-radius: 46px; */
+    color: rgb(255 255 255);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.sub_btn{
+	    padding: 10px;
+    border-radius: 37px;
+    border: none;
+    background: rgb(255 0 0);
+    font-size: 18px;
+	color:var(--color-white);
+}
+.form-control{
+	border-radius:50px!important;
+}

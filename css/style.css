@@ -1,0 +1,134 @@
+/* Website Name = Trip.us Website
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 36px!important;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Bodoni Moda', serif!important;
+}
+
+
+/* website custom color */
+
+:root {
+    --color-white: rgb(255 255 255)!important;
+    --color-black: rgb(47, 47, 49);
+}
+
+.color-red {
+    color: rgb(208 48 0);
+}
+
+
+/* ================== */
+
+
+/* HEADER CUSTOM */
+
+header,
+.my_fleet,
+footer {
+    background-color: var(--color-black);
+    padding: 5px;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 999999;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05)!important;
+    background: rgb(0 49 127);
+}
+
+.pad_10,
+nav,
+.tickets_content,
+.tickets01,
+.my_fleet,
+article,
+.why_us_content,
+form,
+footer {
+    padding: 10px!important;
+}
+
+.suhana_safar_Logo>img {
+    width: 123px;
+}
+
+.tickets01>a>img {
+    width: 100%;
+    border-radius: 40px;
+    filter: brightness(0.5);
+    height: 216px;
+}
+
+.tickets_content {
+    position: absolute;
+    top: text;
+    top: 50px;
+    text-align: center;
+    border: 5px dashed;
+    left: 50px;
+    right: 50px;
+    bottom: 50px;
+}
+
+a {
+    color: white!important;
+    font-size: 15px!important;
+}
+
+p {
+    font-size: 21px;
+}
+
+a:hover {
+    background-color: transparent!important;
+    text-decoration: none!important;
+}
+
+.suhana_safar_nav>ul>li>a {
+    color: var(--color-white)!important;
+}
+
+.my_fleet>a>img {
+    height: 142px;
+}
+
+.my_fleet {
+    border-radius: 16px;
+    margin: 10px 0px;
+}
+
+.why_us_content {
+    background: rgb(250 250 250);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05)!important;
+    margin: 10px 0px;
+}
+
+.my_footer_widget>p {
+    color: var(--color-white);
+}
+
+.copy_right {
+    color: var(--color-white);
+    font-size: 15px;
+}
